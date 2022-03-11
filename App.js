@@ -14,6 +14,8 @@ import {
   View,
   Text,
   StatusBar,
+  NativeModules,
+  Button,
 } from 'react-native';
 
 import {
@@ -25,6 +27,11 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 const App: () => React$Node = () => {
+  const {CalendarModule} = NativeModules; // CalendarModule即为原生SDK名字
+  const onPress = () => {
+    CalendarModule.createCalendarEvent('testName', 'testLocation'); // createCalendarEvent为原生SDK里面提供的方法
+  };
+
   return (
     <>
       <StatusBar barStyle="dark-content" />
@@ -38,6 +45,13 @@ const App: () => React$Node = () => {
               <Text style={styles.footer}>Engine: Hermes</Text>
             </View>
           )}
+
+          <Button
+            title="点我调用原生SDK！！"
+            color="#841584"
+            onPress={onPress}
+          />
+
           <View style={styles.body}>
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>Step One</Text>
