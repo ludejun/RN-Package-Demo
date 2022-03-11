@@ -17,7 +17,7 @@ brew install node
 brew install watchman
 
 npm install -g yarn
-## 在跟项目中
+## 在根路径中
 cd ios
 pod install
 
@@ -26,7 +26,7 @@ yarn install
 yarn ios #这是开启原生编译，就会模拟器起来，对原生来讲用下面的yarn start更简单
 
 ##或者对于原生更喜欢的模式，用Xcode打开ios文件夹中的项目，pod install
-### 在根项目中
+### 在根路径中
 yarn start # 开始JS代码编译，并热更新，如果有改动ios文件夹下面的代码，必须用 yarn ios；android类似
 ### 在Xcode中运行模拟器就行
 
