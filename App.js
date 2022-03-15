@@ -27,11 +27,16 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 const App: () => React$Node = () => {
-  const { HCDR } = NativeModules;
+  const {CalendarModule} = NativeModules;
   const onPress = () => {
-    HCDR.openDR({ 'orgCode': '91037', 'orderId': '2022031400', 'productCode': 'YYLC01' }, result => {
-      console.log(result)
-    });
+    console.log(CalendarModule);
+    CalendarModule.createCalendarEvent('testName', 'testLocation');
+    // CalendarModule.openDR(
+    //   {orgCode: '91037', orderId: '2022031400', productCode: 'YYLC01'},
+    //   (result) => {
+    //     console.log(result);
+    //   },
+    // );
   };
 
   return (
