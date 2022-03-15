@@ -12,6 +12,23 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		18CD7CE227E03A7E003C64EB /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CD7CD827E03A7E003C64EB /* AFURLResponseSerialization.m */; };
+		18CD7CE327E03A7E003C64EB /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CD7CD927E03A7E003C64EB /* AFHTTPSessionManager.m */; };
+		18CD7CE427E03A7E003C64EB /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CD7CDB27E03A7E003C64EB /* AFURLSessionManager.m */; };
+		18CD7CE527E03A7E003C64EB /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CD7CDC27E03A7E003C64EB /* AFURLRequestSerialization.m */; };
+		18CD7CE627E03A7E003C64EB /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CD7CDE27E03A7E003C64EB /* AFNetworkReachabilityManager.m */; };
+		18CD7CE727E03A7E003C64EB /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CD7CDF27E03A7E003C64EB /* AFSecurityPolicy.m */; };
+		18CD7CEB27E03A90003C64EB /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CD7CE927E03A90003C64EB /* MBProgressHUD.m */; };
+		18CD7CEF27E03AD4003C64EB /* HCDR.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18CD7CEC27E03AD4003C64EB /* HCDR.bundle */; };
+		18CD7CF027E03AD4003C64EB /* libHCDR.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CD7CEE27E03AD4003C64EB /* libHCDR.a */; };
+		18CD7CF327E03B0D003C64EB /* HCDR.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CD7CF127E03B0D003C64EB /* HCDR.m */; };
+		18CD7CF527E03B9A003C64EB /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CD7CF427E03B9A003C64EB /* libz.tbd */; };
+		18CD7CF727E03BAA003C64EB /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CD7CF627E03BAA003C64EB /* libc++.tbd */; };
+		18CD7CF927E03BB9003C64EB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CD7CF827E03BB9003C64EB /* AudioToolbox.framework */; };
+		18CD7CFB27E03BC0003C64EB /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CD7CFA27E03BC0003C64EB /* VideoToolbox.framework */; };
+		18CD7CFD27E03BCF003C64EB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CD7CFC27E03BCF003C64EB /* AVFoundation.framework */; };
+		18CD7CFF27E03BDB003C64EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CD7CFE27E03BDB003C64EB /* Foundation.framework */; };
+		18CD7D0127E03BE2003C64EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CD7D0027E03BE2003C64EB /* UIKit.framework */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -53,6 +70,34 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = AwesomeProject/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = AwesomeProject/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AwesomeProject/main.m; sourceTree = "<group>"; };
+		18CD7CD427E03A7E003C64EB /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		18CD7CD527E03A7E003C64EB /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		18CD7CD627E03A7E003C64EB /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		18CD7CD727E03A7E003C64EB /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		18CD7CD827E03A7E003C64EB /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		18CD7CD927E03A7E003C64EB /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		18CD7CDA27E03A7E003C64EB /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		18CD7CDB27E03A7E003C64EB /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		18CD7CDC27E03A7E003C64EB /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		18CD7CDD27E03A7E003C64EB /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		18CD7CDE27E03A7E003C64EB /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		18CD7CDF27E03A7E003C64EB /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		18CD7CE027E03A7E003C64EB /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFCompatibilityMacros.h; sourceTree = "<group>"; };
+		18CD7CE127E03A7E003C64EB /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		18CD7CE927E03A90003C64EB /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		18CD7CEA27E03A90003C64EB /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		18CD7CEC27E03AD4003C64EB /* HCDR.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HCDR.bundle; sourceTree = "<group>"; };
+		18CD7CED27E03AD4003C64EB /* HCDRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDRViewController.h; sourceTree = "<group>"; };
+		18CD7CEE27E03AD4003C64EB /* libHCDR.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHCDR.a; sourceTree = "<group>"; };
+		18CD7CF127E03B0D003C64EB /* HCDR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDR.m; sourceTree = "<group>"; };
+		18CD7CF227E03B0D003C64EB /* HCDR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDR.h; sourceTree = "<group>"; };
+		18CD7CF427E03B9A003C64EB /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		18CD7CF627E03BAA003C64EB /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		18CD7CF827E03BB9003C64EB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		18CD7CFA27E03BC0003C64EB /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		18CD7CFC27E03BCF003C64EB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		18CD7CFE27E03BDB003C64EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18CD7D0027E03BE2003C64EB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2D02E47B1E0B4A5D006451C7 /* AwesomeProject-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AwesomeProject-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* AwesomeProject-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AwesomeProject-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A9E7E0C6EDE9347D1887032 /* Pods-AwesomeProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeProject.release.xcconfig"; path = "Target Support Files/Pods-AwesomeProject/Pods-AwesomeProject.release.xcconfig"; sourceTree = "<group>"; };
@@ -82,6 +127,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18CD7D0127E03BE2003C64EB /* UIKit.framework in Frameworks */,
+				18CD7CFF27E03BDB003C64EB /* Foundation.framework in Frameworks */,
+				18CD7CFD27E03BCF003C64EB /* AVFoundation.framework in Frameworks */,
+				18CD7CFB27E03BC0003C64EB /* VideoToolbox.framework in Frameworks */,
+				18CD7CF927E03BB9003C64EB /* AudioToolbox.framework in Frameworks */,
+				18CD7CF727E03BAA003C64EB /* libc++.tbd in Frameworks */,
+				18CD7CF527E03B9A003C64EB /* libz.tbd in Frameworks */,
+				18CD7CF027E03AD4003C64EB /* libHCDR.a in Frameworks */,
 				44979F4A5D1B1F475BA3D228 /* libPods-AwesomeProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -128,6 +181,13 @@
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				18CD7CF227E03B0D003C64EB /* HCDR.h */,
+				18CD7CF127E03B0D003C64EB /* HCDR.m */,
+				18CD7CEC27E03AD4003C64EB /* HCDR.bundle */,
+				18CD7CED27E03AD4003C64EB /* HCDRViewController.h */,
+				18CD7CEE27E03AD4003C64EB /* libHCDR.a */,
+				18CD7CE827E03A90003C64EB /* MBProgressHUD */,
+				18CD7CD327E03A7E003C64EB /* AFNetworking */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
@@ -136,9 +196,46 @@
 			name = AwesomeProject;
 			sourceTree = "<group>";
 		};
+		18CD7CD327E03A7E003C64EB /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				18CD7CD427E03A7E003C64EB /* AFSecurityPolicy.h */,
+				18CD7CD527E03A7E003C64EB /* AFNetworkReachabilityManager.h */,
+				18CD7CD627E03A7E003C64EB /* AFURLSessionManager.h */,
+				18CD7CD727E03A7E003C64EB /* AFURLRequestSerialization.h */,
+				18CD7CD827E03A7E003C64EB /* AFURLResponseSerialization.m */,
+				18CD7CD927E03A7E003C64EB /* AFHTTPSessionManager.m */,
+				18CD7CDA27E03A7E003C64EB /* AFURLResponseSerialization.h */,
+				18CD7CDB27E03A7E003C64EB /* AFURLSessionManager.m */,
+				18CD7CDC27E03A7E003C64EB /* AFURLRequestSerialization.m */,
+				18CD7CDD27E03A7E003C64EB /* AFNetworking.h */,
+				18CD7CDE27E03A7E003C64EB /* AFNetworkReachabilityManager.m */,
+				18CD7CDF27E03A7E003C64EB /* AFSecurityPolicy.m */,
+				18CD7CE027E03A7E003C64EB /* AFCompatibilityMacros.h */,
+				18CD7CE127E03A7E003C64EB /* AFHTTPSessionManager.h */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		18CD7CE827E03A90003C64EB /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				18CD7CE927E03A90003C64EB /* MBProgressHUD.m */,
+				18CD7CEA27E03A90003C64EB /* MBProgressHUD.h */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				18CD7D0027E03BE2003C64EB /* UIKit.framework */,
+				18CD7CFE27E03BDB003C64EB /* Foundation.framework */,
+				18CD7CFC27E03BCF003C64EB /* AVFoundation.framework */,
+				18CD7CFA27E03BC0003C64EB /* VideoToolbox.framework */,
+				18CD7CF827E03BB9003C64EB /* AudioToolbox.framework */,
+				18CD7CF627E03BAA003C64EB /* libc++.tbd */,
+				18CD7CF427E03B9A003C64EB /* libz.tbd */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
 				88DB7FE48A3FD67185A47BC6 /* libPods-AwesomeProject.a */,
@@ -194,7 +291,6 @@
 				984C9CBCC33CBD8A50ED59A9 /* Pods-AwesomeProject-tvOSTests.debug.xcconfig */,
 				090F73746B7609C62FB1891F /* Pods-AwesomeProject-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -294,6 +390,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = 2KTMQKNDWE;
 						LastSwiftMigration = 1120;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
@@ -340,6 +437,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18CD7CEF27E03AD4003C64EB /* HCDR.bundle in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
@@ -568,8 +666,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18CD7CF327E03B0D003C64EB /* HCDR.m in Sources */,
+				18CD7CE427E03A7E003C64EB /* AFURLSessionManager.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				18CD7CE227E03A7E003C64EB /* AFURLResponseSerialization.m in Sources */,
+				18CD7CE627E03A7E003C64EB /* AFNetworkReachabilityManager.m in Sources */,
+				18CD7CEB27E03A90003C64EB /* MBProgressHUD.m in Sources */,
+				18CD7CE727E03A7E003C64EB /* AFSecurityPolicy.m in Sources */,
+				18CD7CE527E03A7E003C64EB /* AFURLRequestSerialization.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				18CD7CE327E03A7E003C64EB /* AFHTTPSessionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -655,16 +761,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2KTMQKNDWE;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = AwesomeProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hsyunyi.demo5;
 				PRODUCT_NAME = AwesomeProject;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -678,15 +790,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2KTMQKNDWE;
 				INFOPLIST_FILE = AwesomeProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hsyunyi.demo5;
 				PRODUCT_NAME = AwesomeProject;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";

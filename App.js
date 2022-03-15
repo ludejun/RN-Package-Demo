@@ -27,9 +27,11 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 const App: () => React$Node = () => {
-  const {CalendarModule} = NativeModules; // CalendarModule即为原生SDK名字
+  const { HCDR } = NativeModules;
   const onPress = () => {
-    CalendarModule.createCalendarEvent('testName', 'testLocation'); // createCalendarEvent为原生SDK里面提供的方法
+    HCDR.openDR({ 'orgCode': '91037', 'orderId': '2022031400', 'productCode': 'YYLC01' }, result => {
+      console.log(result)
+    });
   };
 
   return (
